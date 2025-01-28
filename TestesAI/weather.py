@@ -10,7 +10,7 @@ class WeatherApp:
         self.root.geometry("400x500")
         
         # Replace with your API key from OpenWeatherMap
-        self.api_key = "fe68cb9ff0e2aa587a4369f000ac38ac"
+        self.api_key = "api key"
         
         # Create GUI elements
         self.setup_gui()
