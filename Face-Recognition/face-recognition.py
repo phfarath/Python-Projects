@@ -1,6 +1,4 @@
 import cv2
-import numpy as np
-from datetime import datetime
 
 def detectar_rostos(caminho_imagem=None, fonte_video=0):
     """
