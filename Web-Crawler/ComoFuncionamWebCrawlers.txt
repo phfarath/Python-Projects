@@ -1,0 +1,42 @@
+Um Web Crawler, ou Rastreador Web, é um programa automatizado que navega pela internet de forma sistemática, visitando páginas e coletando informações. 
+Ele funciona seguindo uma sequência lógica de passos:
+
+🚀 1. Ponto de Partida
+O rastreamento começa com uma lista inicial de URLs (conhecidas como sementes ou seeds).
+Essas URLs são adicionadas a uma fila de processamento, aguardando para serem visitadas.
+
+🔍 2. Como Ele Rastreia?
+O crawler acessa uma URL da fila e faz o download do conteúdo da página.
+Analisa o código HTML para extrair informações relevantes (como texto, imagens e links).
+Identifica novos links dentro da página para continuar a exploração.
+
+🔗 3. Descobrindo Novas Páginas
+Os novos links encontrados são adicionados à fila de rastreamento.
+Antes de visitar um link, o crawler verifica se já o acessou antes, evitando visitas repetidas.
+Se necessário, aplica regras de filtro (por exemplo, excluindo certos domínios ou tipos de arquivos).
+Respeita as diretrizes do robots.txt do site, que pode permitir ou restringir o rastreamento.
+
+💾 4. Salvando os Dados Coletados
+As informações extraídas são armazenadas em um banco de dados ou arquivo.
+Dependendo do objetivo, o crawler pode salvar texto, imagens, arquivos ou metadados.
+Mantém um registro das páginas já visitadas para evitar redundância.
+
+⚙️ 5. Características Essenciais de um Bom Crawler
+Evita sobrecarregar servidores, limitando a frequência das requisições.
+Adiciona pequenos atrasos entre os acessos para ser mais gentil com os sites.
+Gerencia cookies e sessões, caso seja necessário interagir com páginas dinâmicas.
+Lida com diferentes formatos de conteúdo, como HTML, JSON e XML.
+Trata erros e exceções para evitar falhas inesperadas.
+
+🎯 6. Para Que Serve um Crawler?
+Motores de busca (Google, Bing) usam crawlers para indexar páginas da web.
+Mineração de dados, para coletar informações de sites específicos.
+Monitoramento de preços, para comparar valores de produtos online.
+Arquivamento de conteúdo, como o trabalho da Wayback Machine.
+Análise de tendências, como acompanhar menções em blogs e redes sociais.
+
+⚖️ 7. Responsabilidade e Ética no Rastreamento
+Respeitar as regras do site definidas no robots.txt.
+Identificar-se corretamente com um user-agent apropriado.
+Evitar sobrecarga em servidores com requisições excessivas.
+Respeitar direitos autorais e termos de uso ao coletar dados.
