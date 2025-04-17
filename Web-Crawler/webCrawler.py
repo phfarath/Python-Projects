@@ -126,8 +126,7 @@ class RastreadorWeb:
 if __name__ == "__main__":
     # Lista de sites para iniciar o rastreamento
     sementes = [
-        "https://exemplo.com",
-        "https://outroexemplo.com"
+        "https://google.com"
     ]
 
     # Cria uma instância do rastreador e inicia o rastreamento com um limite de 50 páginas
